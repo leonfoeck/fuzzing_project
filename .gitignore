@@ -1,0 +1,15 @@
+## Intellij IDEA
+.idea
+*.iml
+
+## Maven Build Output
+target
+
+## Demo data
+**/db/migrations/*__demo_data*.sql
+
+## Properties files used for tests
+**/integrationTest/resources/integration-test.properties
+**/systemTest/resources/system-test.properties
+**/systemTest/resources/piepliothek.properties
+fuzzing-report/
